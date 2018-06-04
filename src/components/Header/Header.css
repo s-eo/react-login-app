@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+}
+
+.App__nav.navbar-right {
+    margin: 0;
+    margin-right: 15px;
+}
+
+.App__nav.navbar-right a {
+    color: white;
+}
+@media (max-width: 767px) {
+    .App__nav.navbar-right a {
+        color: red;
+    }
+}
+
+.App-header {
+    background-color: #222;
+    padding: 15px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
